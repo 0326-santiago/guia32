@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ROSS DRESS FOR LESS</title>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+
+</head>
+
+<body>
+
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+
+    <header class="header-section">
+        <div class="container-fluid">
+            <div class="inner-header">
+                <div class="logo">
+                    <nav class="main-menu mobile-menu">
+                        <ul>
+
+                            <ul class="sub-menu">
+
+                            </ul>
+                            </li>
+                        </ul>
+                </div>
+                <nav class="main-menu mobile-menu">
+                    <ul>
+
+
+
+                        <li><a href="ver.php">Comprar</a></li>
+
+                        <li> <?php if(!empty($user)): ?>
+
+                            <br><?= $user['email']; ?>
+
+                            <a href="logout.php">
+                                Cerrar sesion
+                            </a></li>
+
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <BR>
+    <div class="col-lg-10">
+        <CENTER>
+            <h1>ROSS DRESS FOR LESS</h1>
+        </CENTER>
+    </div>
+    <section class="hero-slider"></section>
+    <div class="hero-items owl-carousel">
+        <div class="single-slider-item set-bg" data-setbg="img/slider-21.jpg">
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
+        <div class="single-slider-item set-bg" data-setbg="img/slider-12.jpg">
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="single-slider-item set-bg" data-setbg="img/slider-23.jpg">
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
+        <div class="single-slider-item set-bg" data-setbg="img/aja2.jpeg">
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
+        <div class="single-slider-item set-bg" data-setbg="img/wen2.jpeg">
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-20">
+                <footer>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    <h3>SUSCRIBETE PARA RECIBIR PROMOCIONES Y REGALOS</h3>
+
+                                    <form action="" method="post">
+                                        <div class="form-group">
+                                            <input type="email" name="correo" placeholder="river@gmail.com"
+                                                class="form-control">
+                                            <br>
+                                            <input type="submit" name="agregar" class="btn btn-warning btn-block"
+                                                value="ACEPTAR" id="">
+                                        </div>
+                                    </form>
+                                </th>
+                                <th>
+                                </th>
+                            </tr>
+                        </thead>
+                    </table>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
